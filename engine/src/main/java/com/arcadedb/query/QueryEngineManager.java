@@ -44,6 +44,7 @@ public class QueryEngineManager {
     register("com.arcadedb.gremlin.query.GremlinQueryEngineFactory");
     register("com.arcadedb.cypher.query.CypherQueryEngineFactory");
     register("com.arcadedb.mongo.query.MongoQueryEngineFactory");
+    register("com.arcadedb.redis.query.RedisQueryEngineFactory");
     register("com.arcadedb.graphql.query.GraphQLQueryEngineFactory");
   }
 
